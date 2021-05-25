@@ -1,0 +1,53 @@
+State                                       Props
+It is used for store and                    It is used to transmit the data between components.
+transmit the data in the component.
+
+It is present in function body              It is functional parameter
+
+Within the component                        Parent to child relationship or vice versa.
+
+State is available in form react hook in 
+functional component (useState)
+
+const a =() => {
+
+
+}
+
+<div>
+    <employee getItem={setItem} getEmployee={sendEmployee} c={a}></employee>
+</div>
+
+
+props.getItem
+
+a();
+
+
+React Hook Form:
+
+Register: It is used for registering the form field in use form component of react hook form
+<input  {...register('formFieldName')}/>
+
+handleSubmit: It helps us in handling the submit action for the form.
+    - For handleSubmit we need to pass one function as parameter for getting the data from react-hook-form
+
+        handleSubmit(functionName);
+
+form: {errors}
+
+    {errors.formFieldName} - This value will be defined if user doesn't enter value in input field.
+
+
+Validations:
+Required - Mandatory field
+minLength - Minimum length Validation
+maxLength - Maximum length Validation
+Pattern - Regular expression Validation
+Validation - For writing custom Validations
+
+        {...register('formFieldName'), {required: true, pattern: /^[A-Za-z]+$/i, maxLength: 22, minLength: 10}}
+
+minLength & maxLength - For input type text
+min & max - For input type number
+

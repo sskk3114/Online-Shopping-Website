@@ -1,0 +1,13 @@
+.list-group-item {
+    border: none;
+    background-color: #172337;
+    color: #fff;
+}
+.list-group {
+    width: 60%;
+    margin: auto;
+}
+.footer {
+    background-color: #172337;
+    padding: 20px 0px;
+}

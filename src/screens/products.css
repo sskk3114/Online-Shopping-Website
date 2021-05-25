@@ -1,0 +1,18 @@
+.specifications {
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+}
+.products img {
+    height: 200px;
+}
+.specifications .list-group-item {
+    background-color: #fff;
+    color: #000;
+    list-style-type: disc;
+    padding: 5px;
+}
+h4 {
+    text-align: left;
+}
